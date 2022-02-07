@@ -6,7 +6,7 @@ version: 2.1
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:   
   build:   
-    parallelism: 3   
+    parallelism:2    
     docker:   
       - image: cimg/ruby:3.0.2-node   
     steps:    
